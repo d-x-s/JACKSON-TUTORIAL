@@ -4,6 +4,7 @@ import models.Cat;
 import models.CatCalendar;
 
 import java.util.Scanner;
+import static persistence.ManagerJSON.initializeCatCalendar;
 
 public class App extends CatCalendar {
     private Scanner input;

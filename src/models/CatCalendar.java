@@ -1,10 +1,10 @@
 package models;
 
-import persistence.ManagerJSON;
-
 import java.util.ArrayList;
 
-public class CatCalendar extends ManagerJSON {
+import static persistence.ManagerJSON.*;
+
+public class CatCalendar {
 
     ArrayList<Cat> listOfCats;
 
@@ -23,6 +23,8 @@ public class CatCalendar extends ManagerJSON {
     public void editCat(String catName) {
         editCatInCalendar();
     }
+
+
 
     //getter and setter
     public ArrayList<Cat> getListOfCats() {
